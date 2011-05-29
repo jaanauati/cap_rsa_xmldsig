@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.1">
+  <identifier>CA-ON-OTTAWA1-2929</identifier>
+  <sender>roadwatch@ottawa.netalerts.ca</sender>
+  <sent>2011-01-14T06:35:02-05:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <source>NetAlerts - Ottawa Public Alerts - RoadWatch Ottawa</source>
+  <scope>Public</scope>
+  <code>profile:CAP-CP:0.3</code>
+  <code>layer:NetAlerts:NAS</code>
+  <info>
+    <language>en-CA</language>
+    <category>Transport</category>
+    <event>Roadway Closure</event>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>profile:CAP-CP:Event:0.3</valueName>
+      <value>roadClose</value>
+    </eventCode>
+    <eventCode>
+      <valueName>layer:NetAlerts:NAS</valueName>
+      <value>roadclose</value>
+    </eventCode>
+    <senderName>City of Ottawa</senderName>
+    <headline>Woodroffe is closed in both directions from West Hunt Club to Knoxdale/Medhurst due to a watermain break.  Use alternatives.</headline>
+    <description>Friday 14, January 2011 Woodroffe is closed in both directions from West Hunt Club to Knoxdale/Medhurst due to a watermain break.  Use alternatives</description>
+    <instruction>Motorists should avoid this area, take an alternate route</instruction>
+    <web>http://ottawa.netalerts.ca/alerts/2011/01/CA-ON-OTTAWA1-2929.html</web>
+    <area>
+      <areaDesc>Ottawa</areaDesc>
+      <polygon>45.40946729,-76.35596764 45.46542816,-76.28889083 45.47529951,-76.23979568 45.50831249,-76.23360206 45.51729362,-76.20494842 45.51931100,-76.10104799 45.46228002,-75.95667895 45.40182972,-75.91655262 45.35931984,-75.80578912 45.3743383,-75.80394654 45.45724,-75.68619 45.46780588,-75.62503337 45.49382718,-75.52811429 45.51909394,-75.45238337 45.53546632,-75.34127369 45.36065716,-75.26217487 45.31324177,-75.42642201 45.19782470,-75.36337851 45.09277647,-75.60260711 44.96458720,-75.82442396 45.07244241,-75.95296279 45.07994528,-75.94127655 45.19159597,-76.07541577 45.40946729,-76.35596764</polygon>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A0</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A1</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A2</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A3</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A4</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A5</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A6</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A7</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A8</value>
+      </geocode>
+      <geocode>
+        <valueName>layer:NetAlerts:NAS:O</valueName>
+        <value>A9</value>
+      </geocode>
+      <geocode>
+        <valueName>profile:CAP-CP:Location:0.3</valueName>
+        <value>3506</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>Woodroffe - Knoxdale/Medhurst to West Hunt Club</areaDesc>
+      <circle>45.3327500000,-75.7514190000 0</circle>
+      <geocode>
+        <valueName>profile:CAP-CP:Location:0.3</valueName>
+        <value>3506</value>
+      </geocode>
+    </area>
+  </info><info>
+  <language>fr-CA</language>
+  <category>Transport</category>
+  <event>Fermeture De Route</event>
+  <urgency>Expected</urgency>
+  <severity>Moderate</severity>
+  <certainty>Observed</certainty>
+  <eventCode>
+    <valueName>profile:CAP-CP:Event:0.3</valueName>
+    <value>roadClose</value>
+  </eventCode>
+  <eventCode>
+    <valueName>layer:NetAlerts:NAS</valueName>
+    <value>roadclose</value>
+  </eventCode>
+  <senderName>Ville d'Ottawa</senderName>
+  <headline>Woodroffe est fermé de West Hunt Club à Knoxdale/Medhurst en raison d'une bris conduite d'eau principale. Veuillez choisir une autre route.</headline>
+  <description>Le vendredi 14 Janvier 2011 Woodroffe est fermé de West Hunt Club à Knoxdale/Medhurst en raison d'une bris conduite d'eau principale. Veuillez choisir une autre route.</description>
+  <instruction>les automobilistes devraient éviter ce secteur, prennent un itinéraire alternatif</instruction>
+  <web>http://ottawa.netalerts.ca/alerts/2011/01/CA-ON-OTTAWA1-2929.html</web>
+  <area>
+    <areaDesc>Ottawa</areaDesc>
+    <polygon>45.40946729,-76.35596764 45.46542816,-76.28889083 45.47529951,-76.23979568 45.50831249,-76.23360206 45.51729362,-76.20494842 45.51931100,-76.10104799 45.46228002,-75.95667895 45.40182972,-75.91655262 45.35931984,-75.80578912 45.3743383,-75.80394654 45.45724,-75.68619 45.46780588,-75.62503337 45.49382718,-75.52811429 45.51909394,-75.45238337 45.53546632,-75.34127369 45.36065716,-75.26217487 45.31324177,-75.42642201 45.19782470,-75.36337851 45.09277647,-75.60260711 44.96458720,-75.82442396 45.07244241,-75.95296279 45.07994528,-75.94127655 45.19159597,-76.07541577 45.40946729,-76.35596764</polygon>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A0</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A1</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A2</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A3</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A4</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A5</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A6</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A7</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A8</value>
+    </geocode>
+    <geocode>
+      <valueName>layer:NetAlerts:NAS:O</valueName>
+      <value>A9</value>
+    </geocode>
+    <geocode>
+      <valueName>profile:CAP-CP:Location:0.3</valueName>
+      <value>3506</value>
+    </geocode>
+  </area>
+  <area>
+    <areaDesc>Woodroffe - Knoxdale/Medhurst à West Hunt Club</areaDesc>
+    <circle>45.3327500000,-75.7514190000 0</circle>
+    <geocode>
+      <valueName>profile:CAP-CP:Location:0.3</valueName>
+      <value>3506</value>
+    </geocode>
+  </area>
+</info>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Name">
+  <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <Reference URI="">
+      <Transforms>
+        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      </Transforms>
+      <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <DigestValue>w4l6nNj5gsRIyynl2xYVLcCJP3A=</DigestValue>
+    </Reference>
+  </SignedInfo>
+  <SignatureValue>VkajcFPC0hlVp2fSWiehINLR7nr/nbbMzGBg1UE3AxBRfEheOAlOBxSvoYHPEPn5TCevz3uR4ITMs+BemVv9sXAKzUjnof/s4/BcpdtB2pvFB0CUGxmGV9oPnJh+ZhMuV5spIe9r0C/UO/Nb7OhNX4RxFfe+6QcduDPcd+DXp5o=</SignatureValue>
+  <KeyInfo>
+    <X509Data>
+      <X509SubjectName>SubjectName</X509SubjectName>
+      <X509Certificate>MIICxzCCAjCgAwIBAgIBADANBgkqhkiG9w0BAQQFADBSMQswCQYDVQQGEwJDQTEQMA4GA1UECBMHT250YXJpbzEPMA0GA1UEBxMGU2FybmlhMQ0wCwYDVQQKEwRUZXN0MREwDwYDVQQDEwh0ZXN0LmNvbTAeFw0xMTAxMTYyMjI5MTNaFw0xMjAxMTYyMjI5MTNaMFIxCzAJBgNVBAYTAkNBMRAwDgYDVQQIEwdPbnRhcmlvMQ8wDQYDVQQHEwZTYXJuaWExDTALBgNVBAoTBFRlc3QxETAPBgNVBAMTCHRlc3QuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAOOZfN7PTrHgBFCVr9xqAJKYieeLZ7f1OJsdr4HpoVCSAGihkaL3m3b/x8Fci5JzyrBvuOjoCYbk+Pm40P0mWm1TQ9UKfWEy6AlxarLC5AIMO7c5OXRM6XOOAzf5I5Y2XidpkLf8oVMmVdA8RBpV3sd+5DBJaxMGBGaaDoOIXAQIDAQABo4GsMIGpMB0GA1UdDgQWBBSQE4Pgh1ITykoM6G2H8gaCPpwyqDB6BgNVHSMEczBxgBSQE4Pgh1ITykoM6G2H8gaCPpwyqKFWpFQwUjELMAkGA1UEBhMCQ0ExEDAOBgNVBAgTB09udGFyaW8xDzANBgNVBAcTBlNhcm5pYTENMAsGA1UEChMEVGVzdDERMA8GA1UEAxMIdGVzdC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQQFAAOBgQCM8X3pKZoCIYUvHTqKG6sbOHqchEErCkn9o1m+XNSoGJ1+4upWUQ4iLenjDm1Tcff+lJKBBaxBiUze7ov72a0Cja4EtyxSB1sEz/ZNUQ5lnoSh7CuzPQZTV8YaecFpq7R9lTmuJaZHqpxVpB2ClDsM5YC8UmsRxGp90HZVUZnXGQ==</X509Certificate>
+    </X509Data>
+  </KeyInfo>
+</Signature>
+</alert>
