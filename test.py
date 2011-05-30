@@ -43,8 +43,12 @@ def main():
   # 4. Sign XML Document
   # ==============================
   signed_xml = xmldsig.sign(xml, key.decrypt, key_info_xml, key.size(), "Name")
-  
   print signed_xml
+
+  # 5. Verify signature
+  is_verified = xmldsig.verify(signed_xml, lambda x: key.encrypt(x, None), key.size())
+  
+  assert(is_verified)
   
 
 if __name__ == '__main__':
