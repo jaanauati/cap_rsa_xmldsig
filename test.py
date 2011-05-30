@@ -42,11 +42,13 @@ def main():
   
   # 4. Sign XML Document
   # ==============================
-  signed_xml = xmldsig.sign(xml, key.decrypt, key_info_xml, key.size(), "Name")
+  f_priv = rsa_x509_pem.f_private(key)
+  signed_xml = xmldsig.sign(xml, f_priv, key_info_xml, key.size(), "Name")
   print signed_xml
 
   # 5. Verify signature
-  is_verified = xmldsig.verify(signed_xml, lambda x: key.encrypt(x, None)[0], key.size())
+  f_pub = rsa_x509_pem.f_public(key)
+  is_verified = xmldsig.verify(signed_xml, f_pub, key.size())
   
   assert(is_verified)
   
