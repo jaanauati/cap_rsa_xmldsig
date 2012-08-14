@@ -51,6 +51,7 @@ def main():
   is_verified = xmldsig.verify(signed_xml, f_pub, key.size())
   
   assert(is_verified)
+  print "OK."
   
 
 if __name__ == '__main__':
