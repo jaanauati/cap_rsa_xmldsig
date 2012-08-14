@@ -1,0 +1,6 @@
+[submodule "rsa_x509_pem"]
+	path = rsa_x509_pem
+	url = git@github.com:andrewdyates/rsa_x509_pem.git
+[submodule "xmldsig"]
+	path = xmldsig
+	url = git@github.com:andrewdyates/xmldsig.git
